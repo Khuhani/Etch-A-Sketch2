@@ -29,28 +29,27 @@ h1 {
     margin-bottom: 1em;
 }
 
-.clear, .color, .square-num {
+.clear, .color, .rainbow, .square-num {
     border-radius: 5px;
     padding: 0.25em;
     height: 35px;
     padding: 0 1em;
 }
 
-.color{
+.color, .rainbow {
     padding: 0 .25em;
     width: 100px;
     margin: 0 1em;
 }
 
 .navbar, .container {
-    background-color: black;
     width: 800px;
     border-radius: 10px;
 }
 
 .container {
+    background-color: #fff;
     height: 800px;
-    max-width: 800px;
     padding: 4px;
     display: grid;
     gap: 3px;
@@ -61,4 +60,5 @@ h1 {
 .pixels {
     background-color: #fff;
     border-radius: 2px;
+    border-color: #fff;
 }
